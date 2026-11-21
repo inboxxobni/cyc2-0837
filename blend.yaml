@@ -1,13 +1,16 @@
 apiVersion: blends.acryl.dev/v1alpha1
 kind: Blueprint
 metadata:
-  id: acrylblends.cyc2-0837
+  id: inboxxobni.cyc2-0837
   name: cyc2-0837
   version: 0.1.2
   category: internet
-  description: "A branded short-link workspace: 39 links on three domains, a create composer with unique slugs, 28,491 sample clicks, a 30-day trend, referrer and country breakdowns, and a working redirect."
-  visibility: private
+  description: "A branded short-link workspace: 39 links on three domains, a
+    create composer with unique slugs, 28,491 sample clicks, a 30-day trend,
+    referrer and country breakdowns, and a working redirect."
+  visibility: public
   from: "acrylblends.link-shortener#0.1.2"
+  license: MIT
 spec:
   runtime: cordis
   parameters:
